@@ -1,4 +1,4 @@
-package com.bestpricedemo.productadbackend;
+package com.bestpricedemo.productadbackend.service;
 
 import com.bestpricedemo.productadbackend.entity.Category;
 
