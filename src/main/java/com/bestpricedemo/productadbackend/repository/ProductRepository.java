@@ -6,5 +6,6 @@ import com.bestpricedemo.productadbackend.entity.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long>{
-    
+    //Spring data JPA named query
+    Product findByName(String name);
 }
